@@ -1,0 +1,65 @@
+input[type='text'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='email'],
+input[type='number'] {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 15px;
+  padding: 0 18px;
+  color: #444;
+  font-family: 'PT Root UI', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: #fff;
+  border: 1px solid #EFEFEF;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+.btn-red {
+  margin-bottom: 10px;
+  padding: 7px 20px 9px 20px;
+	box-shadow: 0 15px 18px -10px rgb(198 105 28 / 70%);
+    box-shadow: 0 15px 18px -10px rgb(198 105 28 / 70%);
+    background: -o-linear-gradient(166.81deg, #c8691b 28.23%, #a04f19 95.2%);
+    background: linear-gradient(283.19deg, #c8691b 28.23%, #a04f19 95.2%);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 3px solid grey;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}

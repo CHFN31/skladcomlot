@@ -1,0 +1,114 @@
+body {
+    background-size: 2050px;
+}
+::-webkit-input-placeholder {
+    color:    black;
+}
+:-moz-placeholder {
+    color:    black;
+}
+::-moz-placeholder {
+    color:    black;
+}
+:-ms-input-placeholder {
+    color:    black;
+}
+
+form {
+    margin-top: 180px;
+}
+
+.valitation-form {
+    display: table;
+    padding: 50px;
+    background: white;
+    opacity: 0.9;
+    border-radius: 15px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.welcome {
+    display: table;
+    color: #c8691b;
+    line-height: 24px;
+    font-size: 23px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.logo {
+    position: relative;
+    top: 30px;
+    z-index: 1;
+}
+
+.title_worker {
+    display: table;
+    color: #ffbc57;
+    height: 65px;
+    line-height: 24px;
+    font-size: 31px;
+	text-shadow: black 2px 1px 1px;
+    font-family: sans-serif;
+}
+
+.password {
+    min-height: 60px;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    background-position: 0% 50%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    color: #000000;
+    -webkit-transition: all 555ms ease;
+    transition: all 555ms ease;
+    font-size: 18px;
+    width: 296px;
+    text-align: center;
+}
+
+.enter {
+    width: 300px;
+    padding-top: 19px;
+    padding-bottom: 22px;
+    background-color: #FFA500;
+    box-shadow: 0 20px 18px -10px rgba(200, 105, 27, 1);
+    font-size: 20px;
+    margin-top: 30px;
+    border: 0px solid black;
+    cursor: pointer;
+    color: white;
+}
+
+.back {
+    border: 1px solid transparent;
+    background-color: transparent;
+    background-position: 0% 50%;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    color: #000000;
+    -webkit-transition: all 555ms ease;
+    transition: all 555ms ease;
+    font-size: 15px;
+    width: 296px;
+
+    text-align: center;
+}
+
+body input, body textarea{
+    outline: none;
+}
+
+body input:required:valid, body textarea:required:valid{
+    border-color: green;
+    border-radius: 10px;
+    box-shadow: inset 0 -3px 0 0 green;
+}
+
+body input:required:invalid, body textarea:required:invalid{
+    border-color: #c8691b;
+    border-radius: 10px;
+    box-shadow: inset 0 -3px 0 0 #c8691b;
+}

@@ -1,0 +1,184 @@
+﻿body input:required:valid, body textarea:required:valid{
+    border-color: green;
+}
+
+body input:required:invalid, body textarea:required:invalid{
+    border-color: red;
+}
+
+
+
+.btn{
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    border: medium none;
+    background: transparent;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    text-align: center;
+    font-family: 'PT Root UI', sans-serif;
+    line-height: 1.3;
+}
+
+.btn-blue{
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 50px;
+    padding: 2px 29px 4px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    background: transparent;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-blue:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: -o-linear-gradient(166.81deg, #c8691b 28.23%, #a04f19 95.2%);
+    background: linear-gradient(283.19deg, #c8691b 28.23%, #a04f19 95.2%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.btn-blue:hover{
+    background: #c8691b;
+}
+
+.btn-blue:active{
+    background: #a04f19;
+}
+
+.btn-red{
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 50px;
+    padding: 2px 29px 4px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    background: transparent;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-red:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: -o-linear-gradient(121.82deg, #c8691b 18.01%, #a04f19 120.82%);
+    background: linear-gradient(328.18deg, #c8691b 18.01%, #a04f19 120.82%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.btn-red:hover{
+    background: #c8691b;
+}
+
+.btn-red:active{
+    background: #a04f19;
+}
+
+.tableSize {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tableWrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.btnFix {
+    background: #c8691b;
+}
+
+a {
+    font-style: none;
+    color: white;
+}
+
+.a{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.a:hover {
+    background-color: #3e8e41;
+}
+
+/* Стили для основного контента */ 
+  
+   
+button { 
+    background-color: #666666; 
+    color: #fff; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    border: none; 
+    cursor: pointer; 
+} 
+   
+button:hover { 
+    background-color: #333; 
+} 
+   
+.form__static { 
+    display: flex; 
+    flex-direction: column; 
+}
